@@ -25,6 +25,9 @@
       "suffix": "§d:3"
     },
     "Erymanthus": {},
+    "EstrogenEnjoyer":{
+      "suffix": "§d:3"
+    },
     "Fix3dll": {},
     "Frost19": {},
     "Gillsplash": {},
@@ -62,8 +65,13 @@
     "RobotHanzo": {
       "suffix": "§6§l:P"
     },
+    "Sayonara": {
+      "suffix": "§cc:"
+    },
     "Skirtwearer": {
-      "suffix": "§d:3"
+      "suffix": "§d:3",
+      "spinny": true,
+      "upsideDown": true
     },
     "Skyblock_Lobby": {},
     "SkyHanni": {
@@ -71,6 +79,9 @@
       "spinny": true,
       "upsideDown": true,
       "alt from": "hannibal2"
+    },
+    "Solde": {
+      "suffix": "§b;C"
     },
     "ThatGravyBoat": {
       "suffix": "§d:3",
