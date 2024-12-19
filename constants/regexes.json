@@ -1,5 +1,5 @@
 {
-  "sourceLabel": "2b542b3",
+  "sourceLabel": "7e64df4",
   "regexes": {
     "abiphone.snake.name": "Snake",
     "actionbar.defense": ".*§a(?\u003cdefense\u003e[\\d,]+)§a❈.*",
@@ -95,7 +95,7 @@
     "crimson.miniboss.spawn": "§c§lBEWARE - (?\u003cname\u003e.+) Is Spawning\\.",
     "crimson.reputationhelper.quest.clicktostart": "(?:§.)*Click to start!",
     "crimson.reputationhelper.quest.complete": "(?:§.)*COMPLETE",
-    "crimson.reputationhelper.quest.minibossamount": "(?:§7Kill the §c.+ §7|.*)miniboss §a(?\u003camount\u003e\\d) §7times?!",
+    "crimson.reputationhelper.quest.minibossamount": "(?:§7Kill the §c.+ §7|.*)miniboss §a(?\u003camount\u003e\\d)(?: §7times?!)?",
     "crimson.reputationhelper.tablist.quest": " (?:§.*)?(?\u003cstatus\u003e[✖✔]) (?\u003cname\u003e.+?)(?: (?:§.)*?x(?\u003camount\u003e\\d+))?",
     "crimson.volcano.tablistline": " *Volcano: (?\u003cstatus\u003e(?:§.)*\\S+)",
     "data.abiphone.contacts": "Your contacts: (?\u003ccontacts\u003e\\d+)\\/\\d+",
@@ -916,7 +916,6 @@
     "misc.chocolatefactory.hitman.purchasedslots": "§7Purchased slots: §.(?\u003camount\u003e\\d+)§7\\/§a\\d+",
     "misc.chocolatefactory.hitman.slotcooldown": "§7Slot cooldown: §a(?\u003cduration\u003e[\\w ]+)",
     "misc.chocolatefactory.hitman.slotcost": ".*§7Cost §6(?\u003ccost\u003e[\\d,]+) Coins.*",
-    "misc.chocolatefactory.hitman.slotoncooldown": "§cEgg Slot",
     "misc.chocolatefactory.hoppity.call.init": "§e✆ §r(?:§a|§b)Hoppity§r§e ✆.*",
     "misc.chocolatefactory.hoppity.call.pickup": "§e\\[NPC] §aHoppity§f: §b✆ §f§rWhat\u0027s up, .*§f\\?",
     "misc.chocolatefactory.hoppity.call.pickup.outgoing": "\\/selectnpcoption hoppity r_2_1",
