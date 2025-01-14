@@ -540,7 +540,7 @@
   },
   "65": {
     "Position": "-137.0:129.0:155.0",
-    "Name": "Up inth Sky Soul",
+    "Name": "Up in the Sky Soul",
     "Tags": [
       "rift_enigma"
     ],
@@ -709,7 +709,7 @@
   },
   "85": {
     "Position": "-81.0:70.0:112.0",
-    "Name": "Shy Crux",
+    "Name": "Shy",
     "Tags": [
       "grind_mobs"
     ],
@@ -1116,7 +1116,7 @@
   },
   "136": {
     "Position": "-52.0:72.0:120.0",
-    "Name": "Sky Crux",
+    "Name": "Shy",
     "Tags": [
       "grind_mobs"
     ],
@@ -1305,7 +1305,7 @@
   },
   "155": {
     "Position": "-117.0:72.0:80.0",
-    "Name": "Shy Crux",
+    "Name": "Shy",
     "Tags": [
       "grind_mobs"
     ],
@@ -1462,7 +1462,7 @@
   },
   "173": {
     "Position": "-61.0:70.0:-48.0",
-    "Name": "Shadow Crux",
+    "Name": "Shadow",
     "Tags": [
       "grind_mobs"
     ],
@@ -1505,7 +1505,7 @@
   },
   "177": {
     "Position": "-32.0:70.0:-53.0",
-    "Name": "Shadow Crux",
+    "Name": "Shadow",
     "Tags": [
       "grind_mobs"
     ],
@@ -2009,7 +2009,7 @@
   },
   "227": {
     "Position": "2.0:71.0:-90.0",
-    "Name": "Scribe Crux",
+    "Name": "Scribe",
     "Tags": [
       "grind_mobs"
     ],
@@ -6579,7 +6579,7 @@
   },
   "774": {
     "Position": "-19.0:69.0:-123.0",
-    "Name": "Volt Crux",
+    "Name": "Volt",
     "Tags": [
       "grind_mobs"
     ],
@@ -6622,7 +6622,7 @@
   },
   "778": {
     "Position": "-28.0:71.0:-106.0",
-    "Name": "Shadow Crux",
+    "Name": "Shadow",
     "Tags": [
       "grind_mobs"
     ],
@@ -8917,7 +8917,7 @@
   },
   "1066": {
     "Position": "-34.0:71.0:-148.0",
-    "Name": "Volt Crux",
+    "Name": "Volt",
     "Tags": [
       "grind_mobs"
     ],
@@ -9487,14 +9487,19 @@
     ],
     "Neighbours": {
       "1240": 2.0,
-      "1125": 77.53
+      "1130": 3.32
     }
   },
   "1130": {
     "Position": "165.0:76.0:81.0",
+    "Name": "Stillgore Chateau",
+    "Tags": [
+      "area"
+    ],
     "Neighbours": {
+      "2040": 3.16,
       "1240": 3.32,
-      "1131": 7.14
+      "1129": 3.32
     }
   },
   "1131": {
@@ -9504,7 +9509,8 @@
       "rift_eye"
     ],
     "Neighbours": {
-      "1130": 7.14
+      "2040": 4.12,
+      "2039": 88.14
     }
   },
   "1132": {
@@ -14363,7 +14369,7 @@
   },
   "1771": {
     "Position": "-26.0:72.0:-157.0",
-    "Name": "Volt Crux",
+    "Name": "Volt",
     "Tags": [
       "grind_mobs"
     ],
@@ -15999,7 +16005,7 @@
   },
   "1957": {
     "Position": "-20.0:136.0:42.0",
-    "Name": "Ubik Von Neumann (Steal or Split)",
+    "Name": "Ubik Von Neumann (Split or Steal)",
     "Tags": [
       "npc"
     ],
@@ -16676,6 +16682,27 @@
     "Position": "171.0:85.0:124.0",
     "Neighbours": {
       "2031": 9.95
+    }
+  },
+  "2039": {
+    "Position": "90.0:72.0:24.0",
+    "Name": "no_area",
+    "Tags": [
+      "area"
+    ],
+    "Neighbours": {
+      "190": 87.34
+    }
+  },
+  "2040": {
+    "Position": "162.0:76.0:80.0",
+    "Name": "no_area",
+    "Tags": [
+      "area"
+    ],
+    "Neighbours": {
+      "1130": 3.16,
+      "1131": 4.12
     }
   }
 }
