@@ -12,6 +12,28 @@
     "Fiery": 30,
     "Infernal": 40
   },
+  "crimson_prestige_costs": {
+    "HOT": {
+      "ESSENCE_CRIMSON": 150,
+      "KUUDRA_TEETH": 10,
+      "SKYBLOCK_COIN": 2000000
+    },
+    "BURNING": {
+      "ESSENCE_CRIMSON": 800,
+      "KUUDRA_TEETH": 20,
+      "SKYBLOCK_COIN": 5000000
+    },
+    "FIERY": {
+      "ESSENCE_CRIMSON": 4500,
+      "KUUDRA_TEETH": 50,
+      "SKYBLOCK_COIN": 10000000
+    },
+    "INFERNAL": {
+      "ESSENCE_CRIMSON": 25500,
+      "KUUDRA_TEETH": 80,
+      "SKYBLOCK_COIN": 20000000
+    }
+  },
   "lava_fishing_rods": [
     "STARTER_LAVA_ROD",
     "INFERNO_ROD",
@@ -21,22 +43,11 @@
   ],
   "water_fishing_rods": [
     "FISHING_ROD",
-    "PRISMARINE_ROD",
-    "ICE_ROD",
-    "SPONGE_ROD",
-    "SPEEDSTER_ROD",
-    "FARMER_ROD",
-    "WINTER_ROD",
     "CHALLENGE_ROD",
     "CHAMP_ROD",
     "LEGEND_ROD",
     "ROD_OF_THE_SEA",
-    "YETI_ROD",
-    "AUGER_ROD",
-    "CHUM_ROD",
-    "GIANT_FISHING_ROD",
-    "THE_SHREDDER",
-    "PHANTOM_ROD"
+    "GIANT_FISHING_ROD"
   ],
   "dungeon_secret_items": [
     "DEFUSE_KIT",
@@ -91,7 +102,8 @@
       "ultimate_fatal_tempo",
       "smoldering",
       "ultimate_flash",
-      "divine_gift"
+      "divine_gift",
+      "ice_cold"
     ],
     "only_tier_five_prices": [
       "ferocious_mana",
