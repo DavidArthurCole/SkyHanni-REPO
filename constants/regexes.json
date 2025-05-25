@@ -1,5 +1,5 @@
 {
-  "sourceLabel": "6d45234",
+  "sourceLabel": "49226f9",
   "regexes": {
     "abiphone.snake.name": "Snake",
     "actionbar.defense": ".*§a(?\u003cdefense\u003e[\\d,]+)§a❈.*",
@@ -253,7 +253,7 @@
     "data.quiver.quivername": "Quiver",
     "data.sacks.gemstone.count": " §[0-9a-f](?\u003cquality\u003e[A-z]*): §[0-9a-f](?\u003cstored\u003e\\d+(?:\\.\\d+)?(?:(?:,\\d+)?)+[kKmM]?)(?: §[0-9a-f]\\(\\d+(?:\\.\\d+)?(?:(?:,\\d+)?)+[kKmM]?\\))?",
     "data.sacks.gemstone.filter": "(?:§.)+▶ (?\u003cquality\u003e.*)",
-    "data.sacks.gemstone.name": "(?:§.)+(?:[❤❈☘⸕✎✧❁☠❂α] )?(?:(?:Rough|Flawed|Fine) )?(?\u003cgem\u003e[^ ]+) Gemstones?",
+    "data.sacks.gemstone.name": "(?:§.)+(?:[❤❈☘⸕✎✧❁☠❂☂] )?(?:(?:Rough|Flawed|Fine) )?(?\u003cgem\u003e[^ ]+) Gemstones?",
     "data.sacks.number": "(?:(?:§[0-9a-f](?\u003clevel\u003eI{1,3})§7:)?|(?:§7Stored:)?) (?\u003ccolor\u003e§[0-9a-f])(?\u003cstored\u003e[0-9.,kKmMbB]+)§7/(?\u003ctotal\u003e\\d+(?:[0-9.,]+)?[kKmMbB]?)",
     "data.sacks.sack": "^(?:.* Sack|Enchanted .* Sack)$",
     "data.skill.actionbar": ".*§3\\+.* (?\u003cskill\u003e.*) \\((?\u003coverflow\u003e.*)/(?\u003cneeded\u003e.*)\\).*",
@@ -1168,6 +1168,7 @@
     "mob.detection.pattern.jerry.magma.cube": "§c(?:Cubie|Maggie|Cubert|Cübe|Cubette|Magmalene|Lucky 7|8ball|Mega Cube|Super Cube)(?: ᛤ)? §a\\d+§8\\/§a\\d+§c❤",
     "mob.detection.pattern.pet.entities": "^§8\\[§7Lv\\d+§8] §.(?\u003cname\u003eHorse|Armadillo|Skeleton Horse|Pig|Rat)$",
     "mob.detection.pattern.petcare": "^\\[\\w+ (?\u003clevel\u003e\\d+)\\] (?\u003cname\u003e.*)",
+    "mob.detection.pattern.shiny": "SHINY PIG",
     "mob.detection.pattern.summon.owner": ".*Spawned by: (?\u003cname\u003e.*).*",
     "ownplayer.death.chat": "§c ☠ §r§7You (?\u003creason\u003e.+)",
     "party.invite.expired": "§eThe party invite from §r§.(?:\\[.*].)?(?\u003cplayer\u003e\\S+) §r§ehas expired\\.",
