@@ -1,5 +1,5 @@
 {
-  "sourceLabel": "f9a3a05",
+  "sourceLabel": "05fb4c1",
   "regexes": {
     "abiphone.snake.name": "Snake",
     "actionbar.defense": ".*§a(?\u003cdefense\u003e[\\d,]+)§a❈.*",
@@ -219,6 +219,7 @@
     "data.miningapi.area.glacite": "Glacite Tunnels|Great Glacite Lake",
     "data.miningapi.cold": "(?:§.)*Cold: §.(?\u003ccold\u003e-?\\d+)❄",
     "data.miningapi.cold.reset": "§6The warmth of the campfire reduced your §r§b❄ Cold §r§6to §r§a0§r§6!|§c ☠ §r§7You froze to death§r§7\\.",
+    "data.miningapi.heat.scoreboard": "^Heat: (?\u003cscoreboard\u003e§.(?\u003cheat\u003e\\d+|IMMUNE)♨?)$",
     "data.miningapi.pickobulus.end": "§7Your §r§aPickobulus §r§7destroyed §r§e(?\u003camount\u003e[\\d,.]+) §r§7blocks!",
     "data.miningapi.pickobulus.fail": "§7Your §r§aPickobulus §r§7didn\u0027t destroy any blocks!",
     "data.miningapi.pickobulus.use": "§aYou used your §r§6Pickobulus §r§aPickaxe Ability!",
@@ -473,7 +474,6 @@
     "features.gui.customscoreboard.scoreboard.main.copper": "(?:§.)*Copper: (?:§.)*(?\u003ccopper\u003e[\\d,]+).*",
     "features.gui.customscoreboard.scoreboard.main.date": "\\s*(?:(?:Late|Early) )?(?:Spring|Summer|Autumn|Winter) \\d+(?:st|nd|rd|th)?.*",
     "features.gui.customscoreboard.scoreboard.main.footer": "§e(?:www|alpha)\\.hypixel\\.net",
-    "features.gui.customscoreboard.scoreboard.main.heat": "Heat: (?\u003cheat\u003e.*)",
     "features.gui.customscoreboard.scoreboard.main.lobbycode": "\\s*§.(?:\\d{2}/?){3} §8(?\u003ccode\u003e.*)",
     "features.gui.customscoreboard.scoreboard.main.location": "\\s*(?\u003clocation\u003e(?:§7⏣|§5ф) .*)",
     "features.gui.customscoreboard.scoreboard.main.motes": "(?:§.)*Motes: (?:§.)*(?\u003cmotes\u003e[\\d,]+).*",
