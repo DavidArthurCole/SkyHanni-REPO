@@ -1,5 +1,5 @@
 {
-  "sourceLabel": "5a0f392",
+  "sourceLabel": "68caa1f",
   "regexes": {
     "abiphone.snake.name": "Snake",
     "actionbar.defense": ".*§a(?\u003cdefense\u003e[\\d,]+)§a❈.*",
@@ -167,8 +167,11 @@
     "data.chat.player.privateislandguest": "(?\u003cprefix\u003e.*)(?\u003cguest\u003e§a\\[✌] )(?\u003csuffix\u003e.*)",
     "data.chat.player.privateislandrank": "(?\u003cprefix\u003e.*?)(?\u003cprivateIslandRank\u003e§.\\[(?!MVP(?:§.\\++)?§.]|VIP\\+*|YOU§.TUBE|ADMIN|MOD|GM)[^]]+\\]) (?\u003csuffix\u003e.*)",
     "data.chat.player.privatemessage": "^(?!From stash: )(?\u003cdirection\u003eFrom|To) (?\u003cauthor\u003e[^:]*): (?\u003cmessage\u003e.*)",
-    "data.collection.api.counter": ".* §e(?\u003camount\u003e.*)§6/.*",
+    "data.collection.api.collections": ".+ Collections?",
+    "data.collection.api.collections.notmaxed": "§7(?:Progress to .+|Total Collected: .+)",
+    "data.collection.api.counter": ".* §e(?\u003camount\u003e[\\d,]*)(?:§6/.*)?",
     "data.collection.api.fix.chimera-description": ".*Copies §a(?\u003cpercentage\u003e.*)% §7of your active.*",
+    "data.collection.api.playercounter": "(?:§.\\[[^]]+(?:§\\++§b)?] |§7)(?\u003cname\u003e[^§]{2,16})§7: §e(?\u003camount\u003e.+)",
     "data.collection.api.singlecounter": "§7Total [c|C]ollected: §e(?\u003camount\u003e.*)",
     "data.collection.api.tierzero": "§7Progress to .* I: .*",
     "data.entity.warping": "§7(?:Warping|Warping you to your SkyBlock island|Warping using transfer token|Finding player|Sending a visit request)\\.\\.\\.",
@@ -182,6 +185,7 @@
     "data.garden.milestone.crop": "§7Harvest §f(?\u003cname\u003e.*) §7on .*",
     "data.garden.milestone.total": "§7Total: §a(?\u003cname\u003e.*)",
     "data.garden.milestonefix.amount": ".*§e(?\u003chaving\u003e.*)§6/§e(?\u003cmax\u003e.*)",
+    "data.hiddenmembers.inventory.historic": "Historic Members",
     "data.hypixeldata.guesting.scoreboard": "SKYBLOCK GUEST",
     "data.hypixeldata.islandname": "(?:§.)*(?:Area|Dungeon): (?:§.)*(?\u003cisland\u003e.*)",
     "data.hypixeldata.lobbytype": "(?\u003clobbyType\u003e.*lobby)\\d+",
@@ -667,7 +671,7 @@
     "garden.level.inventory.name": "Garden (?:Desk|Level (?\u003ccurrentLevel\u003e.*))",
     "garden.level.inventory.nextxp": ".* §e(?\u003cnextLevelExp\u003e.*)§6/.*",
     "garden.level.inventory.overflow": ".*§r §6(?\u003coverflow\u003e.*)",
-    "garden.nextcontest.crop": "§(?:e○|6☘) §7(?\u003ccrop\u003e.*)",
+    "garden.nextcontest.crop": " ?(?:§.)*(?:○|(?\u003cboosted\u003e☘)) (?:§.)*(?\u003ccrop\u003e.*)",
     "garden.nextcontest.day": "§aDay (?\u003cday\u003e.*)",
     "garden.nextcontest.month": "(?\u003cmonth\u003e(?:\\w+ )?(?:Summer|Spring|Winter|Autumn)), Year (?\u003cyear\u003e\\d+)",
     "garden.pests.cooldown": "\\sCooldown: §r§.(?:§.)?(?:(?\u003cminutes\u003e\\d+)m)? ?(?:(?\u003cseconds\u003e\\d+)s)?(?\u003cready\u003eREADY)?(?\u003cmaxPests\u003eMAX PESTS)?.*",
@@ -1507,6 +1511,7 @@
     "tab.widget.enum.sb.level": "\\s*(?:SB Level(?:§.)*: (?:§.)*\\[(?:§.)*(?\u003clevel\u003e\\d+)(?:§.)*\\] (?:§.)*(?\u003cxp\u003e\\d+).*)",
     "tab.widget.enum.scrap": "\\s*(?:Scrap: (?:§.)*(?\u003camount\u003e\\d)(?:§.)*/(?:§.)*\\d)",
     "tab.widget.enum.server": "\\s*(?:Server: (?:§.)*(?\u003cserverid\u003e.*))",
+    "tab.widget.enum.shard.traps": "\\s*(?:(?:§.)*Shard Traps)",
     "tab.widget.enum.skills": "\\s*(?:(?:§.)*Skills: ?(?:§.)*(?\u003cavg\u003e[\\d.]*))",
     "tab.widget.enum.slayer": "\\s*(?:(?:§.)*Slayer:)",
     "tab.widget.enum.soulflow": "\\s*(?:Soulflow: (?:§.)*(?\u003camount\u003e.*))",
@@ -1545,6 +1550,7 @@
     "utils.skyblocktime.season": "(?:Early |Late )?(?\u003cseason\u003eSpring|Summer|Autumn|Winter)",
     "utils.string.chatusername": "^(?:§\\w\\[§\\w\\d+§\\w] )?(?:(?:§\\w)+\\S )?(?\u003crankedName\u003e(?:§\\w\\[\\w.+] )?(?:§\\w)?(?\u003cusername\u003e\\w+))(?: (?:§\\w)?\\[.+?])?",
     "utils.string.playerchat": "(?\u003cimportant\u003e.*?)(?:§[f7r])*: .*",
+    "utils.string.playername": "[a-zA-Z0-9_]{2,16}",
     "utils.tablist.profile": "(?:§.)+Profile: §r§a(?\u003cprofile\u003e[\\w\\s]+[^ §]).*",
     "utils.time.amount": "(?:(?\u003cy\u003e\\d+) ?y(?:\\w* ?)?)?(?:(?\u003cd\u003e\\d+) ?d(?:\\w* ?)?)?(?:(?\u003ch\u003e\\d+) ?h(?:\\w* ?)?)?(?:(?\u003cm\u003e\\d+) ?m(?:\\w* ?)?)?(?:(?\u003cs\u003e\\d+) ?s(?:\\w* ?)?)?"
   }
