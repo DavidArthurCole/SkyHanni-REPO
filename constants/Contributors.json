@@ -89,6 +89,9 @@
     "NetheriteMiner": {},
     "oBlazin": {
       "suffix": "§d§l^^",
+      "componentSuffix": {
+        "color": "white", "text": "\uE003", "font": "skyhanni:flags"
+      },
       "spinny": true,
       "upsideDown": true
     },
